@@ -1,0 +1,25 @@
+Variable is name of reserved area allocated in memory.
+
+Types of Variable There are three types of variables in java 
+ local variable 
+ instance variable  static variable
+
+Local Variable 
+A variable that is declared inside the method is called local variable.
+
+Instance Variable
+A variable that is declared inside the class but outside the method is called instance variable . It is not declared as static. 
+
+Static variable 
+A variable that is declared as static is called static variable. It cannot be local.
+
+class A
+{ 
+  int data=50;        //instance variable 
+  static int m=100;    //static variable 
+void method()
+{ 
+   int n=90;//local variable
+
+}
+}//end of class
